@@ -23,5 +23,13 @@
             <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
                 <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
             </config-file>
+            
+            <!--allows to show lockscreen controls-->
+            <config-file target="*-Info.plist" parent="UIBackgroundModes">
+                <array>
+                    <string>audio</string>
+                </array>
+            </config-file>
+
         </platform>
     </plugin>
