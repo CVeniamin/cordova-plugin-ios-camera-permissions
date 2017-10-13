@@ -30,6 +30,12 @@
                     <string>audio</string>
                 </array>
             </config-file>
+            
+            <config-file platform="ios"  target="Entitlements-*.plist"  parent="com.apple.developer.associated-domains" mode="replace">
+                <array>
+                    <string>applinks:www.gamingtribe.com</string>
+                </array>
+            </config-file>
 
         </platform>
     </plugin>
