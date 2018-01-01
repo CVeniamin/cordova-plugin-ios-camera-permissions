@@ -24,11 +24,6 @@
                 <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
             </config-file>
             
-            <preference name="VOICERECOGNITION_USAGE_DESCRIPTION" default="This app needs voice recognition acess"/>
-            <config-file target="*-Info.plist" parent="NSSpeechRecognitionUsageDescription">
-                <string>$VOICERECOGNITION_USAGE_DESCRIPTION</string>
-            </config-file>
-            
             <!--allows to show lockscreen controls-->
             <config-file target="*-Info.plist" parent="UIBackgroundModes">
                 <array>
